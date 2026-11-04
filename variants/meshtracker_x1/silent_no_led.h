@@ -12,3 +12,7 @@
 #undef PIN_STATUS_LED_B
 #undef HAS_DRV2605
 #undef DRV2605_USE_LRA
+
+// Stop the Bluefruit library driving LED_BLUE (blink while advertising,
+// solid while connected).
+#define DISABLE_BLE_LED
